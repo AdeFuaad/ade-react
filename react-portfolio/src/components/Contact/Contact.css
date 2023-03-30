@@ -1,0 +1,35 @@
+.contact {
+    padding: 20px;
+    animation: fadeIn 1s;
+  }
+  
+  .contact form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact form label {
+    margin-top: 10px;
+  }
+  
+  .contact form input,
+  .contact form textarea {
+    margin-top: 5px;
+    resize: none;
+  }
+  
+  .contact form button {
+    background-color: #00c3ff;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .contact form button:hover {
+    background-color: #008db3;
+  }
+  
